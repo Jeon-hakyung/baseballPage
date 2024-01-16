@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>baseball love</title>
+        <!-- 자바스크립트 구현-->
+        <script src="contents.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="wrap">
+            <nav>
+            <div class="intro">
+                <div class="header">
+                <div class="searchArea">
+                    <form id="searchForm" >
+                    <input type="search" id="searchInput" placeholder="Search">
+                    <span  id="searchButton" onclick="submitForm()">검색</span>
+                    
+
+                    </form>
+                    <div id="searchResults"></div>
+                    
+                </div>
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                
+                <ul class="nav">
+                    
+                    <li><a href="homework2.html">HOME</a></li>
+                    <li><a href="https://www.koreabaseball.com/" target="_blank">KBO</a></li>
+                    <li><a href="https://www.samsunglions.com/index.asp" target="_blank">SAMSUNG LIONS
+                    </a></li>
+                    <li><a href="#ETC">ETC</a></li>
+                    <li><a href="https://www.samsunglions.com/m/score/score_index.asp" target="_blank">오늘의 경기</a></li>
+                </ul>
+                </div>
+                <div class="baseballagain">
+                <h1 title="Play Ball!!"> 다시,</h1>
+                <h1 title="플레이볼!"> 야구의 시간입니다</h1>
+                </div>
+                <ul class="amount">
+                    
+                        <li>
+                            <div onmouseover="showImage(this)" onmouseout="hideImage(this)">
+                              KBO
+                              <img src="image/kbo.jpg" alt="KBO Logo" class="logo">
+                            </div>
+                          </li>
+                          <li>
+                            <div onmouseover="showImage(this)" onmouseout="hideImage(this)">
+                              MLB
+                              <img src="image/mlb.jpg" alt="MLB Logo" class="logo">
+                            </div>
+                          </li>
+                          <li>
+                            <div onmouseover="showImage(this)" onmouseout="hideImage(this)">
+                              NPB
+                              <img src="image/npb.jpg" alt="NPB Logo" class="logo">
+                            </div>
+                          </li>
+        
+                <ul>
+            </div>
+            </nav>
+            
+                <section>
+                <div class="maintext">
+                    <h1>야구</h1>
+                    <h3>야구:10명으로 이루어진 두 팀이 9회씩 공격과 
+                        수비를 번갈아 하며 승패를 겨루는 구기 종목</h3>
+                    <div class="icons">
+                        
+                        <li>
+                            <div class="pitcher">
+                                <a href="#Pitcher">
+                                <img src="image/pitcher2.jpg" width="250px" height="250px"> </a>
+                            </div>
+                            <div class="content">
+                                투수
+                            </div>
+                            </li>
+                        <li><div class="catcher">
+                            <a href="#Catcher">
+                            <img src="image/Catcher2.jpg" width="250px" height="250px"></a>
+                        </div>
+                        <div class="content">
+                            포수
+                        </div></li>
+                        <li><div class="hitter">
+                            <a href="#Hitter">
+                            <img src="image/hitter2.jpg" width="250px" height="250px"></a>
+                        </div>
+                        <div class="content">
+                            타자
+                        </div></li>
+                        
+                    </div>
+
+                </div>
+                <div class="maintext2">
+                    <h1>내가 야구를 좋아하는 이유, 
+                        좋아하는 팀과 선수</h1>
+                    <div class="service">
+                        <div class="photo">
+                            <a href="#" class="image-link">
+                                <img src="image/jawook1.jpg" width="500" height="500" class="original-image">
+                                <img  title="구자욱 프로필" src="image/jawook3.jpg" width="500" height="500" class="hover-image">
+                            </a>
+
+                        </div>
+                        <div class="content2">
+                            저는 야구를 좋아합니다. 야구라는 스포츠의 매력은 역시 9회말이 
+                            될 때까지 승패를 예측할 수 없다는 것이라고 생각합니다.<br>
+                             물론 그런 치열한 접전 끝에 지게 된다면 아쉬움을 느끼겠지만, 
+                             이겼을 때는 야구를 이겼을 때밖에 느낄 수 없는 그런 감정이 
+                             있는 것 같습니다. 그래서 많은 사람들이 야구를 계속 사랑하고, 
+                             계속 보는 것 아닐까요?  <br><br> 제가 좋아하는 팀은 삼성라이온즈라는 팀입니다. 
+                             그래서 위의 헤더에도 삼성 라이온즈의 홈페이지를 걸어 놓았어요. 가끔 
+                             할 일이 없을 때 홈페이지를 구경하곤 하는데 야구와 관련된 컨텐츠를 
+                             소비하는 것도 즐겁습니다. <br> <br> 좋아하는 팀을 이야기했다면 좋아하는 선수 
+                             이야기를 빼놓기에는 조금 아쉽죠. <br> 제가 이 팀에서 좋아하는 선수는 <mark>구자욱 </mark>
+                             선수입니다. 이 선수는 2012년에 삼성라이온즈에 입단하여 한 팀 외길만 걷고 
+                             있는 프랜차이즈 선수인데, 입단하고 3년동안 빌드업을 해 2015년에 프로 무대에 
+                             데뷔해 큰 임팩트를 남겨 그 해의 신인왕을 수상했습니다. 약간 부진한 해도 있었지만 
+                             꾸준히 노력을 해서 갓 신인이었던 어린 선수가 한 팀의 베테랑이 되어 후배들을 이끄는 
+                             모습에 매력을 느꼈습니다. <br><br> 야구에는 인생이 담겨있다고 말하는 사람도 있을 정도로 보다 
+                             보면 많은 감정이 드는 스포츠입니다. 이런 작은 공놀이의 매력에 빠져볼 준비 되셨나요?
+
+                        </div>
+
+                    </div>
+                    
+
+
+                </div>
+                </section>
+                <article id="Pitcher">
+                <img src="image/pitcher.jpg"  alt="Pitcher">
+                <pre> #투수 </pre>
+                
+                <p>약자로는 P라고 하며, P는 <mark>Pitcher</mark>의 줄임말입니다. 
+                    야구의 포지션 중 하나로, 내야 중앙에 위치한 마운드에 서서 
+                    상대편 타자가 칠 공을 포수에게 던지는 선수를 말합니다. 
+                포수와 묶어서 배터리라는 약칭으로 불리기도 하죠. 야구는 투수놀음이라는 말이 있을 정도로
+            투수는 중요한 포지션입니다. 투수가 포수에게 공을 던지지 않으면 야구는 시작되지 않으니까요. </p>
+            </article>
+
+            <article id="Catcher">
+                <pre> #포수 </pre>
+                <p>약자로는 C이고, C는 <mark>Catcher</mark>의 줄임말입니다. 야구에서 홈을 지키며
+                    투수가 던지는 공을 받는 선수를 말합니다. 수비 시 8명의 팀 동료가 
+                한 방향을 바라볼 때 반대쪽을 바라보고 있는 유일한 포지션이죠. 별칭으로는 
+            안방마님 등이 있습니다. 포지션 특성상 계속 쪼그려 앉은 자세로 있어야 하기 때문에 
+        체력이 가장 빨리 떨어지는 포지션이기도 합니다. 게다가 투수, 상대 타자에 대한 깊은 이해도를 
+        필요로 하기 때문에 결코 쉬운 포지션은 아니죠. 그래도 혼자 무거운 장비를 쓰고 홈을 지키는 포수, 멋있지 않나요? </p>
+        <img src="image/Catcher.jpg" alt="Catcher">
+            </article>
+            <article id="Hitter">
+                <img src="image/hitter.jpg" alt="Hitter">
+                <pre> #타자 </pre>
+                <p>야구에서 공격 시 배트를 가지고 타석에서 공을 치는 선수를 말합니다. 한 팀의 공격시에
+                    1번부터 9번까지의 순서를 정해 타석에 들어서는데 이를 타순이라고 하죠. 원칙적으로는 
+                    수비 포지션의 모든 선수는 반드시 타선에 들어서야 하지만 지명타자 제도라고 하여 투수 대신
+                    '지명타자' 라는 이름이 붙은 지정된 대타가 경기 내내 타석에 들어서죠. 
+                    멋진 홈런으로 점수를 만들어내는 타자, 야구에서 정말 매력있는 포지션임에는 의심할 여지가 없죠. 
+                    
+                </p>
+            </article>
+
+
+
+        </div>
+        <table class="record">
+            <caption> 4월 30일 팀 순위 </caption>
+            
+  <thead>
+    <tr>
+      <th>팀 이름</th>
+      <th>순위</th>
+      <th>승률</th>
+      <th>전적</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>SSG 랜더스</td>
+      <td>1</td>
+      <td>0.652</td>
+      <td>15승 8패</td>
+    </tr>
+    <tr>
+      <td>롯데 자이언츠</td>
+      <td>2</td>
+      <td>0.619</td>
+      <td>13승 8패</td>
+    </tr>
+    <tr>
+        <td>LG 트윈스</td>
+        <td>3</td>
+        <td>0.600</td>
+        <td>15승 10패</td>
+      </tr>
+    <tr>
+        <td>NC 다이노스</td>
+        <td>4</td>
+        <td>0.520</td>
+        <td>13승 12패</td>
+    </tr>
+    <tr>
+        <td>KIA 타이거즈</td>
+        <td>5</td>
+        <td>0.500</td>
+        <td>11승 11패</td>
+    </tr>
+    <!-- 다른 팀들의 데이터 -->
+  </tbody>
+</table>
+<h6> 더 자세한 순위는 kbo stats 어플을 다운받아 보세요!</h6>
+<form class="emailform" id="emailForm" action="process.php" method="POST">
+    <h3>야구에 관심이 있는 사람은 이곳에 이름과 이메일을 남겨주세요! 추첨을 통해 경품을 드립니다</h3>
+    <label for="name">이름:</label>
+    <input type="text" id="name" name="name" required>
+    <br>
+    <label for="email">이메일 주소:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+    <input type="submit" value="전송">
+</form>
+<div id="result2"> </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="contents.js" type="module"></script>
+
+<button onclick="pickRandom()">선수 이름 뽑아보기</button>
+<p> 선수들의 이름을 뽑아보세요. 그리고 유튜브에 이름을 검색해보면 멋진 플레이 영상들이 많이 나올 것입니다!</p>
+<p id="result" class="result"></p>
+
+<h3>내가 직접 계산해보는 승률 계산기. 승률이 궁금하시다면 계산해 드립니다. </h3>
+<div>
+    <label for="wins">승리한 경기 수:</label>
+    <input type="number" id="wins" />
+  </div>
+  <div>
+    <label for="losses">패배한 경기 수:</label>
+    <input type="number" id="losses" />
+  </div>
+  <button onclick="handleCalculate()">계산하기</button>
+  <div id="result"></div> 
+
+  <h3> OPS란? </h3>
+  <h6>야구 스탯에 대해 하나 배워보는 시간을 가져볼까요?
+    OPS라는 수치를 들어본적이 있나요? 
+    On-base Plus Slugging의 약자로, 야구에서 타자들을 평가하는 스탯 중 하나로 '출루율 + 장타율'로 계산합니다.
+    이 수치는 타율만으로는 제대로 평가할 수 없는 타자들의 득점 생산력을 계산하기 위해 도입된 지표입니다. 
+    서로 성격이 다른 두 스탯을 더해야 할 근본적인 이유는 없으나, 우연히 두 스탯을 더해 나온 결과값이 타자의 가치를 매기기에 제법 괜찮기에 쭉 사용되고 있습니다.
+    
+    세이버메트리션들이 고안해놓은 각종 지표들과 비교했을 때 압도적으로 계산하기 편리하다는 장점이 있습니다. 그냥 더하기만 하면 되니까요.
+    </h6>
+    <div class="container">
+        <h2>OPS 계산기</h2>
+        <div class="form-group">
+          <label for="on-base-percentage">On-Base Percentage(출루율):</label>
+          <input type="number" step="0.001" id="on-base-percentage" required>
+        </div>
+        <div class="form-group">
+          <label for="slugging-percentage">Slugging Percentage(장타율):</label>
+          <input type="number" step="0.001" id="slugging-percentage" required>
+        </div>
+        <button class="btn" onclick="calculateOPS()">Calculate OPS</button>
+        <div class="ops-result" id="ops-result"></div>
+      </div>
+
+      <h6> 마지막으로, 제가 제일 좋아하는 사진을 소개합니다</h6>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <button id="fetch-button"> 사진 보기</button>
+      <div id="image-container"></div>
+
+        
+    </body>
+    
+    <foot>
+        <footer class="dream">
+            <h1> "나는 오늘을 살고 내일을 준비한다. <br> 
+                오늘 풀어지면 내일은 두 배로 땀을 흘려야<br> 어제의 수준을 유지할 수 있다"-삼성라이온즈 오승환 <br>
+            <br><br> 20210791 전하경 인터넷기초 과제 </h1>
+        </footer>
+    </foot>
+</html>
